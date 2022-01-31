@@ -1,0 +1,17 @@
+@import "../../styles/Variables.scss";
+
+.other-service-container {
+  display: flex;
+  align-items: center;
+  height: 84px;
+  width: 100%;
+  input {
+    width: 20px;
+  }
+}
+
+.other-img {
+  width: 45px;
+  height: 40px;
+  margin: 0px 15px;
+}

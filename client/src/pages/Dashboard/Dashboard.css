@@ -1,0 +1,59 @@
+.dashboard-container {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dashboard-container button {
+  color: #ffffff;
+  border: 1px solid #d7d3d3;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+
+.dashboard-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.dashboard-top input {
+  margin: 0;
+}
+
+.dashboard-top .add-icon {
+  margin: 0;
+  padding: 0;
+  font-size: 55px;
+  color: blue;
+}
+
+.dashboard-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dashboard-link {
+  text-decoration: none;
+}
+/*# sourceMappingURL=Dashboard.css.map */

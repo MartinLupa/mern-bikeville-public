@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,YAAY,CAAC;EACX,WAAW,EAAE,GAAG;EAChB,OAAO,EAAE,SAAS;EAClB,gBAAgB,ECJA,OAAO;EDKvB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,GAAG,CAAC,KAAK,CCKE,OAAO;EDJ1B,aAAa,EAAE,GAAG;EAClB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;CACb;;AAED,AAAA,YAAY,AAAA,MAAM,CAAC;EACjB,gBAAgB,ECZM,OAAO;EDa7B,UAAU,EAAE,IAAI;CACjB;;AAED,AAAA,cAAc,CAAC;EACb,YAAY,EAAE,IAAI;CACnB",
+    "sources": [
+        "GeneralButton.scss",
+        "../../styles/Variables.scss"
+    ],
+    "names": [],
+    "file": "GeneralButton.css"
+}

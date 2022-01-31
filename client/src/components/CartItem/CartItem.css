@@ -1,0 +1,69 @@
+.cart-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #d7d3d3;
+  margin-bottom: 3px;
+  padding: 10px;
+}
+
+.cart-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cart-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.qty-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.qty {
+  text-align: center;
+  border: 1px solid #d7d3d3;
+  height: 25px;
+  padding: 3px 10px;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.cart-price {
+  text-align: center;
+  border: 1px solid #d7d3d3;
+  height: 25px;
+  padding: 10px 10px 3px 10px;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.cart-img {
+  width: 150px;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 730px) {
+  .cart-item {
+    font-size: 0.8em;
+  }
+}
+/*# sourceMappingURL=CartItem.css.map */

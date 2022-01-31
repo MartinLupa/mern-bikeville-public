@@ -1,0 +1,21 @@
+@import "../../styles/Variables.scss";
+
+.general-btn {
+  font-weight: 600;
+  padding: 14px 15px;
+  background-color: $secondary-color;
+  color: white;
+  border: 1px solid $light-border-color;
+  border-radius: 5px;
+  width: 200px;
+  height: 48px;
+}
+
+.general-btn:hover {
+  background-color: $secondary-color-hover;
+  transition: 0.3s;
+}
+
+.add-cart-icon {
+  margin-right: 10px;
+}

@@ -1,0 +1,46 @@
+@import "../../styles/Variables.scss";
+
+.details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details-container h4 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.details-container p {
+  color: $dark-grey-text;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.details-img {
+  width: 60vw;
+  height: auto;
+}
+
+.details-info {
+  padding: 30px;
+}
+
+.details-size {
+  display: flex;
+}
+
+.details-size p {
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+
+.details-btn {
+  text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .details-container {
+    flex-direction: column;
+  }
+}

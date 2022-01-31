@@ -1,0 +1,24 @@
+@import "../../styles/Variables.scss";
+
+.add-cart-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  padding: 10px 15px;
+  background-color: $secondary-color;
+  color: white;
+  border: 1px solid $light-border-color;
+  border-radius: 5px;
+  width: 200px;
+  margin: auto;
+}
+
+.add-cart-btn:hover {
+  background-color: $secondary-color-hover;
+  transition: 0.3s;
+}
+
+.add-cart-icon {
+  margin-right: 10px;
+}

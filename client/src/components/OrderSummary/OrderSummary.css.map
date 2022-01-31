@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,kBAAkB,CAAC;EACjB,OAAO,EAAE,SAAS;EAClB,aAAa,EAAE,GAAG;EAClB,aAAa,EAAE,IAAI;CACpB;;AAED,AAAA,WAAW,CAAC;EACV,UAAU,EAAE,IAAI;CACjB",
+    "sources": [
+        "OrderSummary.scss",
+        "../../styles/Variables.scss"
+    ],
+    "names": [],
+    "file": "OrderSummary.css"
+}

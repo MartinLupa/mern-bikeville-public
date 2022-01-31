@@ -1,0 +1,21 @@
+.general-btn {
+  font-weight: 600;
+  padding: 14px 15px;
+  background-color: #ff5959;
+  color: white;
+  border: 1px solid #d7d3d3;
+  border-radius: 5px;
+  width: 200px;
+  height: 48px;
+}
+
+.general-btn:hover {
+  background-color: #ff7d7d;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.add-cart-icon {
+  margin-right: 10px;
+}
+/*# sourceMappingURL=GeneralButton.css.map */

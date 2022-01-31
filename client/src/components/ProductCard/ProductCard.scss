@@ -1,0 +1,83 @@
+@import "../../styles/Variables.scss";
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 400px;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid $light-border-color;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  h2,
+  p {
+    margin: 10px 0;
+  }
+}
+
+.hover-effect {
+  opacity: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 3;
+  background-color: white;
+  position: absolute;
+  height: 480px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    transition: 0.3s;
+    visibility: visible;
+    opacity: 0.6;
+  }
+}
+
+.more-info-icon {
+  color: $secondary-color;
+  &:hover {
+    transform: scale(1.2) rotate(10deg);
+  }
+}
+
+.card-img {
+  width: 400px;
+  margin: auto;
+}
+
+.card-info {
+  text-align: left;
+}
+
+.card-btn {
+  padding: 0;
+  font-size: 1.3rem;
+  border: none;
+  background-color: white;
+  text-align: left;
+  margin: 0;
+}
+.card-btn:hover {
+  color: $secondary-color;
+}
+
+.card-price {
+  margin: auto;
+  width: 200px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: 1px solid $light-border-color;
+}
+
+.card-price p {
+  display: inline;
+}
+
+.card-btn {
+  display: flex;
+  align-items: center;
+}

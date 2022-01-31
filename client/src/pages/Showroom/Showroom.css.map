@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,eAAe,CAAC;EACd,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,SAAS,EAAE,IAAI;CAChB",
+    "sources": [
+        "Showroom.scss",
+        "../../styles/Variables.scss"
+    ],
+    "names": [],
+    "file": "Showroom.css"
+}

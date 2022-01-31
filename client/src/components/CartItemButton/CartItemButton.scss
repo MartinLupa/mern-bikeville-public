@@ -1,0 +1,17 @@
+@import "../../styles/Variables.scss";
+
+.cart-item-btn {
+  color: $white-text;
+  font-weight: 600;
+  font-size: 1.2rem;
+  background-color: $secondary-color;
+  border-radius: 3px;
+  border: 1px solid $light-border-color;
+  padding: 5px 15px 6px;
+  margin: 2px;
+}
+
+.cart-item-btn:hover {
+  background-color: $secondary-color-hover;
+  transition: 0.3s;
+}

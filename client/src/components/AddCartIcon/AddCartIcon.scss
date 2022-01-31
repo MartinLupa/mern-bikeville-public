@@ -1,0 +1,10 @@
+@import "../../styles/Variables.scss";
+
+.add-icon-container {
+  color: $secondary-color;
+  margin-left: 20px;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.2) rotate(5deg);
+  }
+}

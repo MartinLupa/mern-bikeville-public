@@ -1,0 +1,11 @@
+.add-icon-container {
+  color: #ff5959;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.add-icon-container:hover {
+  -webkit-transform: scale(1.2) rotate(5deg);
+          transform: scale(1.2) rotate(5deg);
+}
+/*# sourceMappingURL=AddCartIcon.css.map */

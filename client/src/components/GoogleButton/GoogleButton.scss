@@ -1,0 +1,27 @@
+@import "../../styles//Variables.scss";
+
+.google-btn {
+  color: $dark-grey-text;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  padding: 14px 15px;
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  border: 1px solid $light-border-color;
+  border-radius: 5px;
+  height: 48px;
+  transition: 0.3s;
+
+  p {
+    margin-left: 10px;
+  }
+
+  &:hover {
+    background-color: $google-blue;
+    color: white;
+  }
+}

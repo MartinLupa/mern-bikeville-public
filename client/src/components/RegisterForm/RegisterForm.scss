@@ -1,0 +1,42 @@
+@import "../../styles/Variables.scss";
+
+.register-form {
+  margin: 50px;
+}
+
+.form-btn {
+  text-align: center;
+}
+
+.short {
+  width: 138px;
+}
+
+.form-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.form-row {
+  margin-top: 15px;
+  display: flex;
+  align-items: flex-start;
+}
+
+@media only screen and (max-width: 1300px) {
+  .register-form {
+    margin: 30px auto;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .form-row {
+    flex-direction: column;
+  }
+  form input {
+    width: 350px;
+  }
+  .short {
+    width: 350px;
+  }
+}

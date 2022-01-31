@@ -1,0 +1,17 @@
+.cart-item-btn {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.2rem;
+  background-color: #ff5959;
+  border-radius: 3px;
+  border: 1px solid #d7d3d3;
+  padding: 5px 15px 6px;
+  margin: 2px;
+}
+
+.cart-item-btn:hover {
+  background-color: #ff7d7d;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+/*# sourceMappingURL=CartItemButton.css.map */

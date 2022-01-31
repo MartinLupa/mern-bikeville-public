@@ -1,0 +1,56 @@
+.register-form {
+  margin: 50px;
+}
+
+.form-btn {
+  text-align: center;
+}
+
+.short {
+  width: 138px;
+}
+
+.form-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.form-row {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+@media only screen and (max-width: 1300px) {
+  .register-form {
+    margin: 30px auto;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .form-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  form input {
+    width: 350px;
+  }
+  .short {
+    width: 350px;
+  }
+}
+/*# sourceMappingURL=RegisterForm.css.map */

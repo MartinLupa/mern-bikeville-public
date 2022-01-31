@@ -1,0 +1,27 @@
+@import "../../styles/Variables.scss";
+
+.footer-container {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: $main-color;
+  color: $white-text;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.icon {
+  margin: 10px;
+  color: $white-text;
+}
+
+.linkedin-icon:hover {
+  color: $linkedin-color;
+  transition: 0.3s;
+}
+
+.git-icon:hover {
+  color: $light-grey-text;
+  transition: 0.3s;
+}

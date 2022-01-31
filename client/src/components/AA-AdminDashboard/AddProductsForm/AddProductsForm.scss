@@ -1,0 +1,12 @@
+@import "../../../styles/Variables.scss";
+
+.products-form {
+  margin: 10px;
+  // border: 1px solid $light-border-color;
+  // border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 900px;
+  padding: 40px;
+}
